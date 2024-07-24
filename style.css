@@ -1,0 +1,145 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #eae2b7; /* Set the background color for the body */
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  border-radius: 50%; /* Make the image completely round */
+  border: 2px solid #003049; /* Add a 2px border with color #003049 */
+  display: block; /* Ensure the image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Additional styles for specific sections */
+
+/* Header and Footer */
+header, footer {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Navigation Links */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: #d62828;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f77f00;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  margin-bottom: 40px; /* Add space below the section */
+}
+
+#about h2 {
+  font-size: 28px; /* Larger font size for the main heading */
+}
+
+#about h3 {
+  font-size: 20px; /* Smaller font size for subheadings */
+}
+
+/* Portfolio Section */
+#portfolio {
+  text-align: center;
+  margin-bottom: 40px; /* Add space below the section */
+}
+
+#portfolio h2 {
+  font-size: 28px; /* Larger font size for the main heading */
+}
+
+#portfolio h3 {
+  font-size: 20px; /* Smaller font size for project names */
+}
+
+#portfolio img {
+  margin-bottom: 20px; /* Add space below each project image */
+}
+
+/* Contact Section */
+#contact {
+  text-align: center;
+  margin-bottom: 40px; /* Add space below the section */
+}
+
+#contact h2 {
+  font-size: 28px; /* Larger font size for the main heading */
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact ul li {
+  margin-bottom: 10px; /* Add space between contact links */
+}
+
+#contact ul li a:link, #contact ul li a:visited {
+  color: #d62828;
+  text-decoration: none;
+}
+
+#contact ul li a:hover {
+  color: #f77f00;
+}

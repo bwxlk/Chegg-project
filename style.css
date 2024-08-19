@@ -1,4 +1,4 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line. */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
@@ -126,20 +126,20 @@ nav ul li a:hover {
   font-size: 28px; /* Larger font size for the main heading */
 }
 
-#contact ul {
-  list-style-type: none;
+#contact ol { /* Change from ul to ol if required for numbered list */
+  list-style-type: decimal; /* Ensures list is numbered */
   padding: 0;
 }
 
-#contact ul li {
+#contact ol li {
   margin-bottom: 10px; /* Add space between contact links */
 }
 
-#contact ul li a:link, #contact ul li a:visited {
+#contact ol li a:link, #contact ol li a:visited {
   color: #d62828;
   text-decoration: none;
 }
 
-#contact ul li a:hover {
+#contact ol li a:hover {
   color: #f77f00;
 }
